@@ -1,4 +1,5 @@
 const images = [
+　{src: 'scorpio.svg', width: 267.02, height: 218.31},
   {src: 'img/Asset_1.svg', width: 267.02, height: 218.31},
   {src: 'img/Asset_11.svg', width: 204.36, height: 375.54},
   {src: 'img/Asset_12.svg', width: 252.37, height: 254.81},
