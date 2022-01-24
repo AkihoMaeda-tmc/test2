@@ -4,11 +4,18 @@ const icon24 =
 function run() {
   miro.initialize({
     extensionPoints: {
-      bottomBar: {
-        title: 'Dropper',
-        svgIcon: icon24,
+//       bottomBar: {
+//         title: 'Dropper',
+//         svgIcon: icon24,
+//         onClick: () => {
+//           miro.board.ui.openLibrary('content.html', {title: 'Dropper'})
+//         },
+      toolbar: {
+        title: "Dropper",
+        librarySvgIcon:icon24,
+        toolbarSvgIcon:icon24,
         onClick: () => {
-          miro.board.ui.openLibrary('content.html', {title: 'Dropper'})
+          miro.board.ui.openLibrary('content.html', {title: 'Dropper'});
         },
       },
       getWidgetMenuItems: () => {
