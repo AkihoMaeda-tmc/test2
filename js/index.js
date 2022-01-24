@@ -7,8 +7,8 @@ function run() {
     extensionPoints: {
       toolbar: {
         title: "title変更",
-        librarySvgIcon:icon24,
-        toolbarSvgIcon:icon24,
+        librarySvgIcon: '<img src="https://akihomaeda-tmc.github.io/test2/img/title.svg" width="20" height="20">',
+        toolbarSvgIcon: '<img src="https://akihomaeda-tmc.github.io/test2/img/title.svg" width="20" height="20">',
         onClick: () => {
           miro.board.ui.openLibrary('content.html', {title: 'タイトル変更'});
         },
