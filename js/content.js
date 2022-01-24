@@ -1,5 +1,4 @@
 const images = [
-  {src: 'img/koutei.png', width: 267.02, height: 218.31},
   {src: 'img/image1.svg', width: 267.02, height: 218.31},
   {src: 'img/Artboard64star-rate.svg', width: 267.02, height: 218.31},
   {src: 'img/image.png', width: 267.02, height: 218.31},
