@@ -51,7 +51,7 @@ const images = [
 
 function getImage(img) {
   return `<div class="draggable-item image-box">
-						<img src="${img.src}" data-image-url="https://realtimeboard.com/api/awesome-plugins/plugins/DragDrop/${img.src}">
+						<img src="${img.src}" data-image-url="https://github.com/AkihoMaeda-tmc/test2/${img.src}">
 			</div>`
 }
 
