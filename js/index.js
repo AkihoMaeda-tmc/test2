@@ -6,11 +6,11 @@ function run() {
   miro.initialize({
     extensionPoints: {
       toolbar: {
-        title: "title変更",
+        title: "MONOJO",
         librarySvgIcon: icon24,
         toolbarSvgIcon: icon24,
         onClick: () => {
-          miro.board.ui.openLibrary('content.html', {title: 'タイトル変更'});
+          miro.board.ui.openLibrary('content.html', {title: 'MONOJO'});
         },
       },
       getWidgetMenuItems: () => {
