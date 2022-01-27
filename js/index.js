@@ -1,11 +1,11 @@
  const icon24 =
-       '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="20px" viewBox="0 0 30 20" version="3.1"><g id="surface1"><path style="fill:none;stroke-width:6;stroke:rgb(0%,0%,0%);" d="M780 351.167C 780 348.866 781.865 347 784.167 347L784.167 347L800.833 347C 803.135 347 805 348.866 805 351.167L805 351.167L805 416.833C 805 419.134 803.135 421 800.833 421L800.833 421L784.167 421C 781.865 421 780 419.134 780 416.833L780 416.833L780 351.167z" transform="matrix(0.245902,0,0,0.25,-181.47541,-86)"/><path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 0 9.5 L 7.855469 9.5 L 7.855469 10.5 L 0 10.5 Z M 7.363281 8.5 L 10.3125 10 L 7.363281 11.5 Z M 7.363281 8.5 "/><path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 16.476562 9.5 L 24.328125 9.5 L 24.328125 10.5 L 16.476562 10.5 Z M 23.839844 8.5 L 26.789062 10 L 23.839844 11.5 Z M 23.839844 8.5 "/></g></svg>'       
+       '<svg width="122" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><clipPath id="clip0"><rect x="738" y="344" width="122" height="80"/></clipPath></defs><g clip-path="url(#clip0)" transform="translate(-738 -344)"><path d="M780 351.167C780 348.866 781.865 347 784.167 347L800.833 347C803.135 347 805 348.866 805 351.167L805 416.833C805 419.134 803.135 421 800.833 421L784.167 421C781.865 421 780 419.134 780 416.833Z" stroke="#000000" stroke-width="1" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/><path d="M738 382 769.942 382 769.942 386 738 386ZM767.942 378 779.942 384 767.942 390Z"/><path d="M805 382 836.942 382 836.942 386 805 386ZM834.942 378 846.942 384 834.942 390Z"/></g></svg>'       
 
 function run() {
   miro.initialize({
     extensionPoints: {
       toolbar: {
-        title: "モノと情報の流れ図",
+        title: "物と情報の流れ図",
         librarySvgIcon: icon24,
         toolbarSvgIcon: icon24,
         onClick: () => {
