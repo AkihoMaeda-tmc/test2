@@ -7,9 +7,9 @@ function run() {
   miro.initialize({
     extensionPoints: {
       toolbar: {
-        title: "モノと情報の流れ図",
-        librarySvgIcon: icon24,
-        toolbarSvgIcon: icon25,
+        title: "物と情報の流れ図",
+        librarySvgIcon: icon25,
+        toolbarSvgIcon: icon24,
         onClick: () => {
           miro.board.ui.openLibrary('content.html', {title: '物と情報の流れ図'});
         },
