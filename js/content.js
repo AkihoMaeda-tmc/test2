@@ -3,6 +3,7 @@ const images = [
   {src: 'img/会社・組織名.svg', width: 267.02, height: 218.31},
   {src: 'img/物の流れ.svg', width: 204.36, height: 375.54},
   {src: 'img/情報の流れ.svg', width: 252.37, height: 254.81},
+  {src: 'img/リードタイム.svg', width: 252.37, height: 254.81},
   {src: 'img/かんばん大.svg', width: 262.87, height: 364.2},
   {src: 'img/ロット形式ポスト.svg', width: 256.19, height: 365.41},
   {src: 'img/物と情報の停滞.svg', width: 259.2, height: 181.74},
