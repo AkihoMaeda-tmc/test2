@@ -12,7 +12,7 @@ function run() {
         toolbarSvgIcon: icon24,
         onClick: () => {
 //           miro.board.ui.openLibrary('content.html', {title: '物と情報の流れ図'});
-         miro.board.ui.leftSidebar('content.html', {title: '物と情報の流れ図'});
+         miro.board.ui.openLeftSidebar('content.html', {title: '物と情報の流れ図'});
         },
       },
 //       getWidgetMenuItems: () => {
