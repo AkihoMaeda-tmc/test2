@@ -11,18 +11,19 @@ function run() {
         librarySvgIcon: icon25,
         toolbarSvgIcon: icon24,
         onClick: () => {
-          miro.board.ui.openLibrary('content.html', {title: '物と情報の流れ図'});
+//           miro.board.ui.openLibrary('content.html', {title: '物と情報の流れ図'});
+         miro.board.ui.leftSidebar('content.html', {title: '物と情報の流れ図'});
         },
       },
-      getWidgetMenuItems: () => {
-        return Promise.resolve({
-          tooltip: 'Hi',
-          svgIcon: icon24,
-          onClick: (widgets) => {
-            console.log('onClick', widgets)
-          },
-        })
-      },
+//       getWidgetMenuItems: () => {
+//         return Promise.resolve({
+//           tooltip: 'Hi',
+//           svgIcon: icon24,
+//           onClick: (widgets) => {
+//             console.log('onClick', widgets)
+//           },
+//         })
+//       },
     },
   })
 }
