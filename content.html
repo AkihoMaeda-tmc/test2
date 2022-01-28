@@ -12,13 +12,13 @@
 
       #container {
         height: %;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        padding-top: 32px;
+        padding: 14px;
         box-sizing: border-box;
         touch-action: pan-y;
       }
@@ -74,7 +74,7 @@
     </style>
   </head>
   <body>
-    <div class="monojo">モノと情報の流れ図</div>
+    <div class="monojo">物と情報の流れ図</div>
     <div id="container"></div>
     <script src="https://miro.com/app/static/sdk.1.1.js"></script>
     <script src="js/content.js"></script>
