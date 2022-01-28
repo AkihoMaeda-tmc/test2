@@ -23,7 +23,7 @@ function getImage(img) {
 function addShapes(container) {
   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
   			<div class="shape draggable-item red" data-color="f24726">Me too</div>
-			<div class="shape item1 item2">maeda</div>`
+			<div class="item1 item2"></div>`
 }
 
 function addImages(container) {
