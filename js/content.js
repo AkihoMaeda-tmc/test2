@@ -1,18 +1,18 @@
 const images = [
-  {src: 'img/工程名.svg', width: 100.02, height: 100.31},
-  {src: 'img/会社・組織名.svg', width: 100.02, height: 100.31},
-  {src: 'img/物の流れ.svg', width: 100.02, height: 100.31},
-  {src: 'img/情報の流れ.svg', width: 100.02, height: 100.31},
-  {src: 'img/リードタイム.svg',width: 100.02, height: 100.31},
-  {src: 'img/かんばん大.svg', width: 100.02, height: 100.31},
-  {src: 'img/ロット形式ポスト.svg', width: 100.02, height: 100.31},
-  {src: 'img/物と情報の停滞.svg', width: 100.02, height: 100.31},
-  {src: 'img/ストア（店）.svg', width: 100.02, height: 100.31},
-  {src: 'img/紙・指示書.svg', width: 100.02, height: 100.31},
-  {src: 'img/Eメール.svg', width: 100.02, height: 100.31},
-  {src: 'img/FAX.svg', width: 100.02, height: 100.31},
-  {src: 'img/電話.svg', width: 100.02, height: 100.31},
-  {src: 'img/システム・アプリケーション.svg', width: 100.02, height: 100.31},
+  {src: 'img/工程名.svg', width: 50.02, height: 50.31},
+  {src: 'img/会社・組織名.svg', width: 50.02, height: 50.31},
+  {src: 'img/物の流れ.svg', width: 50.02, height: 50.31},
+  {src: 'img/情報の流れ.svg', width: 50.02, height: 50.31},
+  {src: 'img/リードタイム.svg', width: 50.02, height: 50.31},
+  {src: 'img/かんばん大.svg', width: 50.02, height: 50.31},
+  {src: 'img/ロット形式ポスト.svg', width: 50.02, height: 50.31},
+  {src: 'img/物と情報の停滞.svg', width: 50.02, height: 50.31},
+  {src: 'img/ストア（店）.svg', width: 50.02, height: 50.31},
+  {src: 'img/紙・指示書.svg', width: 50.02, height: 50.31},
+  {src: 'img/Eメール.svg', width: 50.02, height: 50.31},
+  {src: 'img/FAX.svg', width: 50.02, height: 50.31},
+  {src: 'img/電話.svg', width: 50.02, height: 50.31},
+  {src: 'img/システム・アプリケーション.svg', width: 50.02, height: 50.31},
 ]
 
 function getImage(img) {
@@ -24,7 +24,7 @@ function getImage(img) {
 function addShapes(container) {
 //   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
 //   				<div class="shape draggable-item red" data-color="f24726">Me too</div>
-     container.innerHTML += `<div class="shape draggable-item koutei">
+     container.innerHTML += `<div class="draggable-item koutei">
 			  </div>`
 }
 
