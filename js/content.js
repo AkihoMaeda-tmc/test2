@@ -32,6 +32,9 @@ function addShapes(container) {
 			  </div>
 			  <div class="shape draggable-item">
      				<div class="dasharrow"></div>
+			  </div>
+			  <div class="shape draggable-item">
+     				<div class="leadarrow"></div>
 			  </div>`
 			     
 }
