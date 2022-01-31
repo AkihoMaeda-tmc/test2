@@ -27,8 +27,8 @@ function addShapes(container) {
      container.innerHTML += `<div class="shape draggable-item koutei"
 			       data-color="d3d3d3"
 			       shape-type=7
-			       shape-opacity=1>
-			       工程
+			       shape-opacity=1 //透明度>
+			       こうてい
 			  </div>`
 }
 
