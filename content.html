@@ -52,7 +52,6 @@
         font-family: sans-serif;
         background-color: #F5F5F7;
         border-radius: 15px;
-        position: relative;
       }
 
   /*       .draggable-item.red {
@@ -63,7 +62,7 @@
           background-color: #0ca788;
         } */
 
-      .koutei::after {
+      .koutei{
           margin       : auto;
           width        : 20px;
           height       : 70px;
@@ -73,15 +72,14 @@
           border: solid 1px #000000;
           border-radius: 4px;
           opacity: 1;
-         position: absolute;
       }
 
       .arrow {
-        height: 20px;
+        height: 5px;
         width: 40px;
         background-color: #007bff;
         position:  relative;
-        margin-top: 20px;
+        margin-top: 10px;
       }
 
       .arrow::after {
@@ -89,7 +87,7 @@
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 20px 0 20px 30px;
+        border-width: 10px 0 10px 15px;
         border-color: transparent transparent transparent #007bff;
         position:  absolute;
         top: -50%;
@@ -105,7 +103,7 @@
     </style>
   </head>
   <body>
-    <div class="monojo">モノと情報の流れ図</div>
+    <div class="monojo">物と情報の流れ図</div>
     <div id="container"></div>
     <script src="https://miro.com/app/static/sdk.1.1.js"></script>
     <script src="js/content.js"></script>
