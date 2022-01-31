@@ -39,6 +39,8 @@ function createImage(canvasX, canvasY, url) {
   return miro.board.widgets.create({
     type: 'image',
     url: url,
+	  width: 50,
+	  height: 50,
     x: canvasX,
     y: canvasY,
   })
