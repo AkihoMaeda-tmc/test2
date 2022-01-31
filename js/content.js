@@ -24,11 +24,7 @@ function getImage(img) {
 function addShapes(container) {
 //   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
 //   				<div class="shape draggable-item red" data-color="f24726">Me too</div>
-     container.innerHTML += `<div class="shape draggable-item koutei"
-			       data-color="d3d3d3"
-			       shape-type=7
-			       shape-opacity=1 //透明度>
-			       こうてい
+     container.innerHTML += `<div class="shape draggable-item koutei">
 			  </div>`
 }
 
