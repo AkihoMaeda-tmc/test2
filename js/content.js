@@ -25,6 +25,8 @@ function addShapes(container) {
 //   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
 //   				<div class="shape draggable-item red" data-color="f24726">Me too</div>
      container.innerHTML += `<div class="draggable-item koutei">
+			  </div>
+			     <div class="arrow">
 			  </div>`
 }
 
