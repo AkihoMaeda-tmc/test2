@@ -1,18 +1,18 @@
 const images = [
-  {src: 'img/工程名.svg', width: 267.02, height: 218.31},
-  {src: 'img/会社・組織名.svg', width: 267.02, height: 218.31},
-  {src: 'img/物の流れ.svg', width: 204.36, height: 375.54},
-  {src: 'img/情報の流れ.svg', width: 252.37, height: 254.81},
-  {src: 'img/リードタイム.svg', width: 252.37, height: 254.81},
-  {src: 'img/かんばん大.svg', width: 262.87, height: 364.2},
-  {src: 'img/ロット形式ポスト.svg', width: 256.19, height: 365.41},
-  {src: 'img/物と情報の停滞.svg', width: 259.2, height: 181.74},
-  {src: 'img/ストア（店）.svg', width: 255, height: 175.65},
-  {src: 'img/紙・指示書.svg', width: 249.34, height: 225.69},
-  {src: 'img/Eメール.svg', width: 257.34, height: 305.2},
-  {src: 'img/FAX.svg', width: 245.67, height: 174.88},
-  {src: 'img/電話.svg', width: 263.63, height: 246.18},
-  {src: 'img/システム・アプリケーション.svg', width: 254.62, height: 334.65},
+  {src: 'img/工程名.svg', width: 100.02, height: 100.31},
+  {src: 'img/会社・組織名.svg', width: 100.02, height: 100.31},
+  {src: 'img/物の流れ.svg', width: 100.02, height: 100.31},
+  {src: 'img/情報の流れ.svg', width: 100.02, height: 100.31},
+  {src: 'img/リードタイム.svg',width: 100.02, height: 100.31},
+  {src: 'img/かんばん大.svg', width: 100.02, height: 100.31},
+  {src: 'img/ロット形式ポスト.svg', width: 100.02, height: 100.31},
+  {src: 'img/物と情報の停滞.svg', width: 100.02, height: 100.31},
+  {src: 'img/ストア（店）.svg', width: 100.02, height: 100.31},
+  {src: 'img/紙・指示書.svg', width: 100.02, height: 100.31},
+  {src: 'img/Eメール.svg', width: 100.02, height: 100.31},
+  {src: 'img/FAX.svg', width: 100.02, height: 100.31},
+  {src: 'img/電話.svg', width: 100.02, height: 100.31},
+  {src: 'img/システム・アプリケーション.svg', width: 100.02, height: 100.31},
 ]
 
 function getImage(img) {
@@ -24,6 +24,7 @@ function getImage(img) {
 function addShapes(container) {
 //   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
 //   			<div class="shape draggable-item red" data-color="f24726">Me too</div>
+  container.innerHTML += `<div class="shape draggable-item koutei"></div>
 }
 
 function addImages(container) {
