@@ -17,14 +17,19 @@ const images = [
 
 function getImage(img) {
   return `<div class="draggable-item image-box">
-						<img src="${img.src}" data-image-url="https://akihomaeda-tmc.github.io/test2/${img.src}">
-			</div>`
+		<img src="${img.src}" data-image-url="https://akihomaeda-tmc.github.io/test2/${img.src}">
+	  </div>`
 }
 
 function addShapes(container) {
 //   container.innerHTML += `<div class="shape draggable-item green" data-color="0ca788">I am shape</div>
-//   			<div class="shape draggable-item red" data-color="f24726">Me too</div>
-//   container.innerHTML += `<div class="shape draggable-item koutei"></div>
+//   				<div class="shape draggable-item red" data-color="f24726">Me too</div>
+//   container.innerHTML += `<div class="shape draggable-item koutei"
+			       data-color="d3d3d3"
+			       shape-type=7
+			       shape-opacity=1>
+			       工程
+			  </div>`
 }
 
 function addImages(container) {
