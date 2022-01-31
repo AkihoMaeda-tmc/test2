@@ -90,8 +90,29 @@
         border-width: 10px 0 10px 15px;
         border-color: transparent transparent transparent #000000;
         position:  absolute;
-        top: -100%;
+        top: -120%;
         left: 100%;
+      }
+      
+      .dasharrow {
+        border-bottom: 2px dashed #000;
+        position:  relative;
+/*         height: 5px;
+        width: 40px;
+        background-color: #000000;
+        margin-top: 10px; */
+      }
+
+      .dasharrow::after {
+        content:  '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 15px;
+        border-color: transparent transparent transparent #000000;
+        position:  absolute;
+        top: -120%;
+        right: 100%;
       }
 
       .image-box img {
